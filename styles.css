@@ -1,0 +1,24 @@
+/* rules for phones */
+
+@media only screen and (max-width:480px) {
+
+    #slider-image { max-width: 100% }
+    #flash-ad { display: none; }
+
+}
+
+/* CSS rules for tablets */
+
+@media onyl screen and (min-width: 481px) and (max-width:768px)
+{
+
+}
+
+/* CSS rules for desktops */
+
+@media onyl screen and (min-width: 769px)
+
+{
+
+
+}
