@@ -1,0 +1,43 @@
+<head>
+
+  <style>
+
+    figcaption.popup {
+    padding: 10px;
+    background: #e1e1e1;
+    position: absolute;
+    
+    /* add a drop shadow to the frame */
+    ‐webkit‐box‐shadow: 0 0 15px #A9A9A9);
+    ‐moz‐box‐shadow: 0 0 15px #A9A9A9;
+    box‐shadow: 0 0 15px #A9A9A9;
+    /* hide it until there is a hover */
+
+    visibility: hidden;
+    }
+
+    figure.thumbnail:hover figcaption.popup {
+
+    position: absolute;
+    top: 0;
+    left: 100px;
+
+    /* display image upon hover */
+    visibility: visible;
+    }
+  </style>
+  
+</head>
+
+<body>
+
+  <figure class="thumbnail">
+    <img src="png/layout.png" alt=""/>
+    <figcaption class="popup">
+      <img src="png/layout.png" alt=""/>
+      <p>The library in the British Museum in London</p>
+    </figcaption>
+  </figure>
+
+</body>
+
